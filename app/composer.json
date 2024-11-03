@@ -3,7 +3,7 @@
     "description": "Projeto para estudo da base PHP OOP",
     "autoload": {
         "psr-4": {
-            "Davialano\\BaseOop\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
