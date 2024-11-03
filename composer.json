@@ -1,0 +1,15 @@
+{
+    "name": "davialano/base_oop",
+    "description": "Projeto para estudo da base PHP OOP",
+    "autoload": {
+        "psr-4": {
+            "Davialano\\BaseOop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davi alano"
+        }
+    ],
+    "require": {}
+}
