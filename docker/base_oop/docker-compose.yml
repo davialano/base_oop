@@ -4,13 +4,14 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ../app:/app
-      - ./default.conf:/etc/nginx/conf.d/default.conf
+      - ../../app:/app
+      - ../default.conf:/etc/nginx/conf.d/default.conf
 
   phpfpm:
     image: php:8.3-fpm-alpine
+    working_dir: /app
     volumes:
-      - ../app:/app
+      - ../../app:/app
 
   mysql:
     image: mysql:8.0
